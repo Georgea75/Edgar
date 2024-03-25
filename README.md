@@ -220,7 +220,7 @@ def convert_to_new_type(series: pd.Series) -> pd.Series:
 ```
 
 
-### 2. Register the function with the decortator 
+### 2. Register the function with the decorator 
 
 Wrap the conversion function in a decorator @register_conversion, specifying the order at which point the conversion will be attempted. The order determines the priority of the conversion, with lower values being attempted first. Also, specify the name of the type using the type_name parameter.
 
