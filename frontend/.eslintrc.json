@@ -1,0 +1,26 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "jest/globals": true
+    },
+    "extends": [
+      "standard",
+      "plugin:react/recommended",
+      "plugin:jest/recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "jest"
+    ],
+    "rules": {
+      "react/prop-types": "off",
+      "jest/expect-expect": "off",
+      "object-shorthand": "off"
+
+    }
+  }
+  
