@@ -1,8 +1,8 @@
 import pandas
 from rest_framework import serializers
-from rhombus.conversions import SUPPORTED_TYPES
-from rhombus.models import File, Column
-from rhombus.infer_data_types import infer_and_convert_data_types
+from edgar.conversions import SUPPORTED_TYPES
+from edgar.models import File, Column
+from edgar.infer_data_types import infer_and_convert_data_types
 
 
 class ColumnSerializer(serializers.ModelSerializer):

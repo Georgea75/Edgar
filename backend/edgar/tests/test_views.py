@@ -4,8 +4,8 @@ from django.urls import reverse
 from rest_framework import status
 from pathlib import Path
 from parameterized import parameterized
-from rhombus.conversions import SUPPORTED_TYPES
-from rhombus.models import File, Column
+from edgar.conversions import SUPPORTED_TYPES
+from edgar.models import File, Column
 
 TEST_FILE_DIRECTORY = Path(__file__).resolve().parent / "test_files"
 

@@ -1,5 +1,5 @@
 from django.urls import path
-from rhombus.views import post_sheet, get_sheet, get_supported_types, update_column_type
+from edgar.views import post_sheet, get_sheet, get_supported_types, update_column_type
 
 
 urlpatterns = [

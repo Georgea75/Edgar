@@ -1,6 +1,6 @@
 from typing import Generator
 from pandas import DataFrame
-from rhombus.conversions import FUNCTIONS, FUNCTION_LOOKUP
+from edgar.conversions import FUNCTIONS, FUNCTION_LOOKUP
 
 
 def infer_and_convert_data_types(

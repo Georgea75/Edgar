@@ -1,7 +1,7 @@
 from django.test import TestCase
 from pandas import Series
 import pandas
-from rhombus.conversions import FUNCTION_LOOKUP
+from edgar.conversions import FUNCTION_LOOKUP
 from parameterized import parameterized
 from pandas.testing import assert_series_equal
 import unittest

@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "rhombus-assessment"
+name = "edgar"
 version = "0.1.0"
-description = "Technical Assessment for rhombusAI"
+description = "Infers types for CSV and excel files using a webapp"
 authors = ["Georgea75 <georgetucker.a@gmail.com>"]
 readme = "README.md"
 

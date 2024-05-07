@@ -1,5 +1,5 @@
 import pandas as pd
-from rhombus.infer_data_types import infer_and_convert_data_types
+from edgar.infer_data_types import infer_and_convert_data_types
 from django.test import TestCase
 from typing import Dict
 import unittest

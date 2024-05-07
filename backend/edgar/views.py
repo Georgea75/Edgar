@@ -6,15 +6,15 @@ from rest_framework.exceptions import ValidationError as SerializerValidationErr
 from rest_framework.request import HttpRequest
 from rest_framework.response import Response
 
-from rhombus.models import File, Column
-from rhombus.serializers import (
+from edgar.models import File, Column
+from edgar.serializers import (
     FileSerializer,
     ColumnSerializer,
     GetFileSerializer,
     SupportedTypesSerializer,
 )
-from rhombus.conversions import SUPPORTED_TYPES, FUNCTION_LOOKUP
-from rhombus.infer_data_types import infer_and_convert_data_types
+from edgar.conversions import SUPPORTED_TYPES, FUNCTION_LOOKUP
+from edgar.infer_data_types import infer_and_convert_data_types
 
 
 @api_view(["POST"])

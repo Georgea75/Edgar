@@ -1,6 +1,6 @@
 from django.core.exceptions import ValidationError
 from django.db import models
-from rhombus.conversions import SUPPORTED_TYPES
+from edgar.conversions import SUPPORTED_TYPES
 
 
 class File(models.Model):

@@ -3,9 +3,9 @@ import React from 'react'
 export default function Instructions () {
   return (
       <div>
-          <h1 className="text-xl font-bold">RhombusAI Assessment</h1>
+          <h1 className="text-xl font-bold">Edgar</h1>
           <p className="py-4 text-sm">
-              This application was designed to fulfil the requirements of the RhombusAI take-home assessment. It is a web application that processes and presents data. Under the hood, it imports the provided data into a Pandas data frame while performing type inference.
+              Edgar is a web application that processes and presents data. Under the hood, it imports the provided data into a Pandas data frame while performing type inference.
               Additionally, it offers users the capability to manually override the inferred types.
           </p>
           <h2 className="font-bold">Instructions:</h2>

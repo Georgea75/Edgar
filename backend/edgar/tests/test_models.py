@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.core.exceptions import ValidationError
-from rhombus.models import File, Column
+from edgar.models import File, Column
 
 
 class FileModelTestCase(TestCase):

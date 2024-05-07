@@ -1,8 +1,8 @@
 from django.test import TestCase
 from rest_framework.exceptions import ValidationError
-from rhombus.models import File
+from edgar.models import File
 from django.utils import timezone
-from rhombus.serializers import (
+from edgar.serializers import (
     ColumnSerializer,
     FileSerializer,
     SupportedTypesSerializer,
