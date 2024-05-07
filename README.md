@@ -1,6 +1,6 @@
-# Rhombus Assessment
+# Edgar
 
-This application was designed to fulfil the requirements of the RhombusAI take-home assessment. It is a web application that processes and presents data. Under the hood, it imports the provided data into a Pandas data frame while performing type inference. Additionally, it offers users the capability to manually override the inferred types.
+Edgar is a web application that processes and presents data. Under the hood, it imports the provided data into a Pandas data frame while performing type inference. Additionally, it offers users the capability to manually override the inferred types.
 
 ## Installation
 
@@ -235,3 +235,7 @@ def convert_to_new_type(series: pd.Series) -> pd.Series:
 ## Linting
 
 This project has been linted with the black formatter for python and ES linter set to standard for javascript.
+
+## Name
+
+This application is named after Edgar Cayce, the famous American Clairvoyant. 
